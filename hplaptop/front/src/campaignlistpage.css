@@ -1,0 +1,22 @@
+ 
+  .Campaignlist_TitleBar,
+  .Campaignlist_Filterbar,
+  .Mainlist {
+    margin-left: 20vh;
+    min-width: 60%;
+  }
+  .Campaignlist_Topbar{
+    width: 100%;
+  }
+  .Campaignlist_Content_right{
+    min-width: 60%;
+  }
+
+.div2{
+  display: flex;
+  flex-direction: row;
+}
+.div2_right{
+  width: 93%;
+  padding-right: 250px;
+}

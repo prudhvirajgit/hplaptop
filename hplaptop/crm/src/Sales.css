@@ -1,0 +1,38 @@
+.inner {
+  background-color: green;
+}
+.inner_head {
+  background-color: gray;
+  text-align: center;
+}
+.content {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+}
+.content_left {
+  background-color: gray;
+  min-width: 200px;
+}
+.content_left_head {
+  background-color: white;
+}
+.content_left_task_head {
+  margin-bottom: 10px;
+}
+.content_left_task_list {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+.content_left_task_listAdd {
+  background-color: white;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}

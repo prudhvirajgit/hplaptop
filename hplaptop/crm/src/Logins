@@ -1,0 +1,26 @@
+import { useState } from "react";
+import React from "react";
+export default function login (){
+    const[username,setusername] = useState("");
+    const[password,setpassword] = useState("");
+    return(
+    <>
+    
+    <div className="login">
+        <div className="login_innerdiv">
+            <h1>Login</h1>
+            <input onChange={(e)=>{
+                setusername(e.target.value);
+            }} 
+            type={"text"} placeholder="username"></input>{username}<br></br>
+            <input 
+            onChange={(e)=>{
+                setpassword(e.target.value);
+            }} 
+            type={"text"} placeholder="password"></input>{password}<br></br>
+            <button>Login</button>
+        </div>
+    </div>
+
+  </>)
+}
